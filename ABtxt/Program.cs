@@ -30,17 +30,17 @@ namespace ABtxt
             if (Convert.ToInt32(a) > f)
             {
                 Console.WriteLine("a > 10^9");
-                a = "Null";
+                a = "N";
             }
             if (Convert.ToInt32(b) > f)
             {
                 Console.WriteLine("b > 10^9");
-                b = "Null";
+                b = "N";
             }
             int c = 0, d = 0, e = 0;
-            if (a!="Null")
+            if (a!="N")
             {
-                if (b != "Null") {
+                if (b != "N") {
                     c = Convert.ToInt32(a);
                     d = Convert.ToInt32(b);
                     e = c + d;
